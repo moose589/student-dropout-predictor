@@ -19,3 +19,20 @@ To run this application locally on your computer or mobile environment:
 1. Clone the repository:
    ```bash
    git clone [https://github.com/YOUR_USERNAME/student-dropout-predictor.git](https://github.com/YOUR_USERNAME/student-dropout-predictor.git)
+pip install -r requirements.txt
+streamlit run app.py
+## 4. Connecting GitHub to Streamlit Cloud on Mobile
+
+Your project specifies that your repository is linked via automated webhooks to Streamlit Community Cloud for automated container building without system downtime[span_4](start_span)[span_4](end_span)[span_5](start_span)[span_5](end_span).
+
+1. Open a new tab in your mobile browser and go to **[share.streamlit.io](https://share.streamlit.io)**.
+2. Click **Connect with GitHub** and authorize your account.
+3. Click the **Create app** (or **Deploy an app**) button.
+4. In the setup fields, type your repository name: `YOUR_USERNAME/student-dropout-predictor`.
+5. Set the Main file path to: `app.py`.
+6. Click **Deploy!**
+
+Streamlit will open a live terminal window showing it loading your `requirements.txt` packages. Within 1–2 minutes, it will give you a permanent public `[https://...streamlit.app](https://...streamlit.app)` URL. You can open this link on your phone, tablet, or presentation laptop during your graduation project defense to demonstrate your app live.
+
+Now that your mobile-friendly architecture and GitHub configurations are
+
